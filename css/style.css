@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+nav a {
+  font-size: 1rem;
+  color: #ababab;
+}
+nav a:visited {
+  color: #ababab;
+}
+nav #active {
+  color: #00b39b;
+}
+nav a:hover {
+  color: #00b39b;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.15);
+  margin-top: 2px;
+  transition: box-shadow 0.25s ease 0s;
+}
+nav {
+  width: 255px;
+  display: flex;
+  justify-content: space-around;
+}
+main {
+  margin: 20px 20px 0 0;
+}
+#logo1 {
+  display: block;
+  margin: 0 auto;
+}
+#subTitle1 {
+  color: #00b39b;
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+}
+#paragraphs {
+  display: flex;
+  margin: 0 auto;
+  color: #747474;
+  width: 70%;
+}
+#paragraphs p {
+  margin: 0 10px;
+  line-height: 25px;
+}
+#cards {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+.cards {
+  border-radius: 5px;
+  padding: 20px;
+  width: 45%;
+  height: 400px;
+}
+
+#card1 {
+  background-color: #00ccb1;
+}
+#card1 select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+}
+#card2 {
+  background-color: #3d83df;
+}
+.weare {
+  display: flex;
+  margin: 0 15%;
+}
+.weare h1 {
+  color: #00b39b;
+  font-weight: lighter;
+}
+.weare ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.weare li a {
+  color: hsla(0, 0%, 67%, 0.7);
+  font-size: 3vh;
+}
+.weare li a:hover {
+  color: #00b39b;
+  transition: ease-in-out 0.25s;
+}
+.statistics {
+  background-color: #e5faf8;
+}
+.statistics-content {
+  margin: 50px auto 88px;
+  padding: 15px 0 10px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1050px;
+}
+.stat-text h2 {
+  font-size: 34px;
+  line-height: 44px;
+  color: #00b39b;
+  font-weight: lighter;
+}
+.stat-text p {
+  margin: 22px 0;
+  max-width: 415px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #747474;
+}
+.stat-text {
+  width: 50%;
+  margin-left: 20px;
+}
+.stat-numbers {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  width: 50%;
+  margin-right: 5px;
+}
+.stat-numbers div {
+  background-color: white;
+  border-radius: 5px;
+  list-style: none;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+  width: 40%;
+  height: 250px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.stat-numbers h2 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 31px;
+  margin: 12px 0;
+  color: #00b39b;
+}
+.stat-numbers p {
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0;
+  color: #747474;
+}
+.countries {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.countries h2 {
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 300;
+}
+.countries-header p {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 22px 0;
+}
+.countries-header {
+  max-width: 460px;
+  text-align: center;
+  margin: 0 auto 67px;
+}
+.country-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin: 88px 0px 80px;
+}
+.country-cards a {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 311px;
+  text-decoration: none;
+  color: #747474;
+}
+.country-cards a:hover {
+  box-shadow: 0px 0px 70px -40px rgba(0, 0, 0, 0.75);
+  transition: ease-in-out 0.25s;
+}
+.country-cards a p {
+  font-size: 20px;
+  margin: 0;
+}
+.country-cards div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.country-cards button {
+  border: 0;
+  border-radius: 4px;
+  background: #3d83df;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.country-cards button:hover {
+  color: #fff;
+  background: #1662c6;
+}
+footer p {
+  text-align: center;
+  color: #ababab;
+  font-size: 12px;
+}
+footer a {
+  color: #3d83df;
+}
